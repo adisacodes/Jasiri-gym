@@ -1,0 +1,156 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    color: whitesmoke;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px 40px;
+}
+
+.logo {
+    font-family: 'Bebas Neue', cursive;
+    color: orange;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Monteserrat', sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+.hero {
+    background-color: black;
+    text-align: center;
+    padding: 40px 20px 30px 20px;
+}
+
+.hero h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+    color: orange;
+    letter-spacing: 3px;
+    margin-top: 0;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin: 20px 0;
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+}
+
+.btn {
+    display: inline-block;
+    background-color: orange;
+    color: whitesmoke;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: darkorange;
+}
+
+.about {
+    padding: 30px 40px;
+    text-align: center;
+    background-color: black;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    font-family: 'Bebas Neue',cursive;
+    color: orange;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.about p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: whitesmoke;
+}
+
+.services {
+    padding: 30px 40px;
+    background-color: black;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    font-family: 'Bebas Neue', cursive;
+    color: orange;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: lighter black;
+    padding: 30px 20px;
+    border-radius: 8px;
+    width: 220px;
+    transition: transform 0.3s;
+    border: 1px solid;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: orange;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: whitesmoke;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 0.85rem;
+}

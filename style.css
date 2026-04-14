@@ -154,3 +154,24 @@ footer {
     font-family: 'Open Sans', sans-serif;
     font-family: 0.85rem;
 }
+
+.page-header {
+    background-color: black;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.page-header h2 {
+    color: orange;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    font-family:'Bebas Neue', cursive ;
+}
+
+.page-header p {
+    font-size: 1rem;
+    color: whitesmoke;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+

@@ -205,24 +205,28 @@ footer {
 }
 
 .classes-grid {
-display: flex;
+display: grid;
 justify-content: center;
-flex-wrap: wrap;
+grid-template-columns: repeat(3, 300px);
 gap: 20px;
-background-color: black;
 padding: 30px 40px;
+align-items: stretch;
+background-color: black;
 }
 
 .class-card {
     flex-direction: column;
     display: flex;
-    border: 1px solid;
+    border: 1px solid #ff6b00;
     border-radius: 8px;
     gap: 10px;
     background-color: #2a2a2a;
     padding: 25px 20px;
-    width: 280px;
-    transition: 0.3s;
+    width: 220px;
+    transition: transform 0.3s;
+    gap: 10px;
+    flex: 0 0 220px;
+    max-width: 220px;
  }
 
  .class-card:hover {

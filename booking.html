@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jasiri Gym</title>
+    <title>Book a Session - Jasiri Gym</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+     <nav>
+    <h1 class="logo">Jasiri Gym</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="booking.html">Book a Session</a></li>
+    </ul>
+    </nav>
+    <section class="page-header">
+        <h2>Book a Session</h2>
+        <p>Fill in the form below to reserve your spot</p>
+    </section>
+    <section class="booking-section">
+        <form id="bookingForm">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="e.g. Ivy Lulu" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="e.g. ivy@email.com" required>
+            </div>
+            
+        </form>
+    </section>
 </body>
 </html>

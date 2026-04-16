@@ -277,3 +277,72 @@ background-color: black;
  .class-card .btn:hover {
     background-color: darkorange;
  }
+
+ .booking-section {
+    background-color: black;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+ }
+
+ form {
+    background-color: #2a2a2a;
+    border-radius: 1px solid #ff6b00;
+    border-radius: 10px;
+    padding: 40px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+
+ .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+ }
+
+ .form-group label {
+    font-family: 'Monteserrat', sans-serif;
+    font-weight: 700;
+    color: orange;
+    font-size: 0.9rem;
+ }
+
+ .form-group input,
+ .form-group select {
+    background-color: black;
+    color: #f5f5f5;
+    border: 1px solid #ff6b00;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.95rem;
+    outline: none;
+ }
+
+ .form-group input:focus,
+ .form-group select:focus {
+    border-color: orange;
+    box-shadow: 0 0 5px #ff6b00;
+ }
+
+ form.btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: #f5f5f5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: background-color 0.3s;
+ }
+
+ form .btn:hover {
+    background-color: darkorange;
+ }

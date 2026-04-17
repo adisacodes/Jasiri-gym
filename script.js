@@ -20,3 +20,39 @@ filterButtons.forEach(button => {
         });
     });
 });
+
+
+const bookingForm = document.getElementById('bookingForm');
+
+if (bookingForm) {
+    bookingForm.addEventListener('submit',function (e) {
+        e.preventDefault();
+
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const phone = document.getElementById('phone').value;
+        const selectedClass = document.getElementById('class').value;
+        const date = document.getElementById('date').value;
+        const time = document.getElementById('time').value;
+
+
+    localStorage.setItem('confirm-name', name);
+    localStorage.setItem('confirm-email', email);
+    localStorage.setItem('confirm-phone', phone);
+    localStorage.setItem('confirm-class', selectedClass);
+    localStorage.setItem('confirm-date', date);
+    localStorage.setItem('confirm-time', time);
+
+    window.location.href = 'confirmation.html';
+    });
+}
+
+const confirmName = document.getElementById('confirm-name');
+if (confirmName) {
+    document.getElementById('confirm-name').textContent = localStorage.getItem('confirm-name');
+    document.getElementById('confirm-email').textContent = localStorage.getItem('confirm-email');
+    document.getElementById('confirm-phone').textContent = localStorage.getItem('confirm-phone');
+    document.getElementById('confirm-class').textContent = localStorage.getItem('confirm-class');
+    document.getElementById('confirm-date').textContent = localStorage.getItem('confirm-date');
+    document.getElementById('confirm-time').textContent = localStorage.getItem('confirm-time');
+}

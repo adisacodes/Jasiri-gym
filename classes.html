@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasiri Gym</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+    <h1 class="logo">Jasiri Gym</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="booking.html">Book a Session</a></li>
+    </ul>
+    </nav>
+    <section class="page-header">
+        <h2>Our Classes</h2>
+        <p>Find the perfect class for your fitness journey.</p>
+    </section>
+    <section class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="yoga">Yoga</button>
+        <button class="filter-btn" data-filter="cardio">Cardio</button>
+        <button class="filter-btn" data-filter="strength">Strength</button>
+        <button class="filter-btn" data-filter="boxing">Boxing</button>
+        <button class="filter-btn" data-filter="dance">Dance Fitness</button>
+    </section>
+    <section class="classes-grid">
+        <div class="class-card" data-category="strength">
+            <h3>Strength Training 💪</h3>
+            <p class="trainer">Trainer: Coach Edgar</p>
+            <p class="time">Time: Mon, Wed, Fri - 7:00 AM</p>
+            <p>Build muscles and increase power with our expert-led strength session.</p>
+            <a href="booking.html" class="btn">Book Now</a>
+        </div>
+        <div class="class-card" data-category="yoga">
+            <h3>Yoga 🧘🏼</h3>
+            <p class="trainer">Trainer: Coach Amina</p>
+            <p class="time">Time: Tue, Thur - 8:00 AM</p>
+            <P>Improve flexibility and find balace with our calming yoga classes.</P>
+            <a href="booking.html" class="btn">Book Now</a>
+        </div>
+        <div class="class-card" data-category="cardio">
+            <h3>Cardio 🏃🏼‍♂️</h3>
+            <p class="trainer">Trainer: Coach Simon</p>
+            <p class="time">Time: Mon, Wed, Fri -6:00 AM</p>
+            <p>Burn calories and boost endurance with high energy cardio workouts.</p>
+            <a href="booking.html" class="btn">Book Now</a>
+        </div>
+        <div class="class-card" data-category="boxing">
+            <h3>Boxing 🥊</h3>
+            <p class="trainer">Trainer: Coach Kevin</p>
+            <p class="time">Time: Tue, Thur, Sat - 5:00 PM</p>
+            <p>Release stress and build confidence with our boxing sessions.</p>
+            <a href="booking.html" class="btn">Book Now</a>
+        </div>
+        <div class="class-card" data-category="cardio">
+            <h3>Cycling 🚴‍♀️</h3>
+            <p class="trainer">Trainer: Coach Sara</p>
+            <p class="time">Time:Mon, Fri - 9:00 AM</p>
+            <p>High intensity cycling session to get your heart pumping.</p>
+            <a href="booking.html" class="btn">Book Now</a>
+        </div>
+        <div class="class-card" data-category="strength">
+            <h3>Weightlifting 🏋️‍♀️</h3>
+            <p class="trainer">Trainer: Coach David</p>
+            <p class="time">Time: Wed, Sat - 10:00 AM</p>
+            <p>Master the fundamentals of weightlifting with expert guidance.</p>
+            <a href="booking.html" class="btn">Book Now</a>
+        </div>
+        <div class="class-card" data-category="dance">
+            <h3>Dance 🕺</h3>
+            <p class="trainer">Trainer: Coach Marion</p>
+            <p class="time">Time:Tue, Thur, Sat - 6:00 PM</p>
+            <P>Have fun and get fit with high energy dance fitness routines.</P>
+            <a href="booking.html" class="btn">Book Now</a>
+         </div>
+    </section>
+<section class="exercise-library">
+    <h2>Exercise Library</h2>
+    <p>Explore exercises you can expect in our classes powerd by real fitness data.</p>
+    <div class="exercise-cards" id="exerciseCards">
+        <p class="loading">Loading exercises...</p>
+    </div>
+</section>
+<footer>
+        <p>&copy; 2026 Jasiri Gym. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
